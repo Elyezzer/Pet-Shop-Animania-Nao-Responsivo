@@ -1,8 +1,27 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     max-width: 1920px;
 }
+
+li, a{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30%;
+}
+
+
 
 
 h1{
@@ -23,11 +42,4 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     
-}
-
-.menu{
-    list-style: none;
-    display: flex;
-    font-family:'Times New Roman', Times, serif;
-    justify-content: none;
 }
