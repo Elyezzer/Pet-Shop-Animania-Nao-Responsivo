@@ -8,9 +8,9 @@
 li, a{
 
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 500px;
     font-size: 16px;
     text-decoration: none;
+    
 
 }
 
@@ -18,8 +18,25 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 30%;
+    padding: 0  10%;
 }
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.redes_sociais{
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 
