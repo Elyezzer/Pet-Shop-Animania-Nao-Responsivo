@@ -1,5 +1,27 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 1920px;
+}
+
+
+h1{
+    position: relative;
+    text-align: left;
+    margin-top: 99px;
+    margin-left: 89px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 55px;
+    
+}
+
+h2{
+    position: relative;
+    text-align: left ;
+    margin-top: 112px;
+    margin-left: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    
 }
 
