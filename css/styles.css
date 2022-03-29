@@ -25,15 +25,9 @@ h2{
     
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 12vh;
-}
-
 .menu{
     list-style: none;
     display: flex;
     font-family:'Times New Roman', Times, serif;
+    justify-content: none;
 }
