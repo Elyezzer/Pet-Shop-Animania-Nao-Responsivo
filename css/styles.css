@@ -39,26 +39,71 @@ header{
     margin-right: auto;
 }
 
+.logo_whatsapp{
+    position: absolute;
+    margin-top: 1009px;
+    margin-left: 12%;
+}
+
+.cachorro_e_gato{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 59%;
+}
 
 
+.onda{
+    position: absolute;
+    margin-top: 1049px;
+    right: 0mm;
+   
+}
+
+.v-line{
+    border-left: thick solid #C4C4C4;
+    height: 59%;
+    left: 50%;
+    top: 150px;
+    position: absolute;
+    width:.3vw;
+    border-width:0;
+    color:#C4C4C4;
+    background-color:#C4C4C4; 
+ }
+
+
+
+
+    
 
 
 h1{
     position: relative;
     text-align: left;
-    margin-top: 99px;
-    margin-left: 89px;
+    margin-top: 500px;
+    margin-left: -70px;
     font-family:'Times New Roman', Times, serif;
     font-size: 55px;
+
     
 }
 
 h2{
     position: relative;
     text-align: left ;
-    margin-top: 112px;
-    margin-left: 200px;
+    margin-top: 490px;
+    margin-right: -259px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 40px;
     
+}
+
+h3{
+    position: relative;
+    text-align: left;
+    margin-top: 800px;
+    margin-left: -1147px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+
 }
