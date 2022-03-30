@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,15 +10,16 @@
 
 li, a{
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 26px;
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
 
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     align-items: center;
     padding: 60px;
     background-color: #4FBFFE;
@@ -29,12 +31,45 @@ header{
     padding: 0 20px;
 }
 
+.menu{
+    position: absolute;
+    left: 460px;
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+    
+}
+
 .instagram{
 
-    position: absolute;
+    position: relative;
+    left: 900px;
     display: flex;
-    flex-direction: row;
+
 }
+
+.facebook{
+
+    position: relative;
+    left: 600px;
+    display: flex;
+    
+}
+
+.whatsapp{
+
+    position: relative;
+    left: 300px;
+    display: flex;
+    
+}
+
+.barra_amarela{
+    color: yellow;
+    height: 100%;
+    left: 50%;
+    top: 150px;
+}
+
 
 
 
