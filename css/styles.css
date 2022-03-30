@@ -29,13 +29,12 @@ header{
     padding: 0 20px;
 }
 
-.redes_sociais{
-    align-items: center;
+.instagram{
 
+    position: absolute;
+    display: flex;
+    flex-direction: row;
 }
-
-
-
 
 
 
