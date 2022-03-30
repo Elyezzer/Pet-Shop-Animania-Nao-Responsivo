@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
     max-width: 1920px;
 }
 
@@ -9,22 +11,17 @@ li, a{
 
     font-family: 'Times New Roman', Times, serif;
     font-size: 26px;
-    text-decoration: none;
-
 
 }
 
 header{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    padding: 0  10%;
+    padding: 60px;
     background-color: #4FBFFE;
-    height: 19vh;
-}
-
-.menu{
-    list-style: none;
+    height: 12vh;
 }
 
 .menu li{
@@ -33,11 +30,10 @@ header{
 }
 
 .redes_sociais{
+    align-items: center;
 
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
 }
+
 
 
 
