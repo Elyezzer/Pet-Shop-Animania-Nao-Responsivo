@@ -120,6 +120,75 @@ header{
     top: -10px;
 }
 
+.cachorro_home{
+
+    position: absolute;
+    top: 145px;
+    width: 1920px;
+    height: 416px;
+
+}
+
+.patas{
+
+    position: absolute;
+    top: 320px;
+    opacity: 90%;
+
+}
+
+.patas_2{
+
+    position: absolute;
+    top: 320px;
+    left: 660px;
+    opacity: 90%;
+
+}
+
+.patas_3{
+
+    position: absolute;
+    top: 320px;
+    left: 1320px;
+    opacity: 90%;
+
+}
+
+.tesoura{
+
+    position: absolute;
+    top: 700px;
+    left: 5%;
+
+}
+
+.seringa{
+
+    position: absolute;
+    top: 700px;
+    left: 41%;
+    
+
+
+}
+
+.exame{
+
+    position: absolute;
+    top: 700px;
+    left: 77%;
+
+}
+
+.onda_home{
+
+    position: absolute;
+    width: 1920px;
+    height: 227px;
+    top: 660px;
+}
+
 
 
 
@@ -152,3 +221,4 @@ h3{
     font-size: 40px;
 
 }
+
