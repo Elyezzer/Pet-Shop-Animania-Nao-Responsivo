@@ -39,13 +39,6 @@ header{
     
 }
 
-.instagram{
-
-    position: relative;
-    left: 900px;
-    display: flex;
-
-}
 
 
 .logo_whatsapp{
@@ -79,13 +72,20 @@ header{
     border-width:0;
     color:#C4C4C4;
     background-color:#C4C4C4; 
- }
+}
 
+.instagram{
+
+    position: relative;
+    left: 1130px;
+    display: flex;
+
+}
 
 .facebook{
 
     position: relative;
-    left: 600px;
+    left: 740px;
     display: flex;
     
 }
@@ -93,20 +93,26 @@ header{
 .whatsapp{
 
     position: relative;
-    left: 300px;
+    left: 350px;
     display: flex;
     
 }
 
 .barra_amarela{
-    color: yellow;
-    height: 100%;
-    left: 50%;
-    top: 150px;
+    background: #ffd025;
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    height: 35px;
+    width: 100%;
+    
+
 }
 
-
-
+.logo{
+    position: absolute;
+    top: -10px;
+}
 
 
 h1{
