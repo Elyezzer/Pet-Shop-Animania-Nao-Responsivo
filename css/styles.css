@@ -198,6 +198,17 @@ header{
     top: 660px;
 }
 
+.barra_azul_baixo{
+    
+    background-color: #4FBFFE;
+    position: absolute;
+    top: 960px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+
+}
+
 
 
 
@@ -231,10 +242,3 @@ h3{
     font-size: 40px;
 
 }
-
-<<<<<<< HEAD
-=======
-.segundoH3{
-    position:ab;
-}
->>>>>>> bc47f9b214666688c506e8b83366ee1165a70eae
