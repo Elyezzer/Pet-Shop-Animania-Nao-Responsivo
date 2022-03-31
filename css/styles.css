@@ -50,26 +50,32 @@ header{
 
 .logo_whatsapp{
     position: absolute;
-    margin-top: 1009px;
-    margin-left: 12%;
+    top: 40%;
+    margin-left: 20%;
+
 }
 
 .cachorro_e_gato{
     position: absolute;
-    margin-top: 900px;
-    margin-left: 59%;
+    margin-top: -5px;
+    margin-left: 68%;
 }
 
 
 
 .onda{
     position: absolute;
-    margin-top: 1049px;
-    right: 0mm;
+    
+    
    
 }
 
-.v-line{
+.onda_segunda_parte{
+   
+
+}
+
+.barra{
     border-left: thick solid #C4C4C4;
     height: 59%;
     left: 50%;
@@ -109,11 +115,13 @@ header{
 
 
 
+
+
 h1{
     position: relative;
     text-align: left;
-    margin-top: 500px;
-    margin-left: -70px;
+    top: 75px;
+    margin-left: 3%;
     font-family:'Times New Roman', Times, serif;
     font-size: 55px;
 
@@ -123,8 +131,8 @@ h1{
 h2{
     position: relative;
     text-align: left ;
-    margin-top: 490px;
-    margin-right: -259px;
+    margin-top: -45px;
+    margin-left: 58%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     
@@ -133,8 +141,7 @@ h2{
 h3{
     position: relative;
     text-align: left;
-    margin-top: 800px;
-    margin-left: -1147px;
+   
     font-family:'Times New Roman', Times, serif;
     font-size: 40px;
 
