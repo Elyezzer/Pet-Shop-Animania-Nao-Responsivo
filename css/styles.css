@@ -43,7 +43,7 @@ header{
 
 .logo_whatsapp{
     position: absolute;
-    top: 40%;
+    top: 59%;
     margin-left: 20%;
 
 }
@@ -54,31 +54,40 @@ header{
     margin-left: 68%;
 }
 
-
-
 .onda{
     position: absolute;
-    
-    
-   
+    margin-top: 3%;
+    margin-left: -9%;
 }
 
-.onda_segunda_parte{
-   
 
-}
 
 .barra{
     border-left: thick solid #C4C4C4;
-    height: 59%;
-    left: 50%;
-    top: 150px;
+    height: 55%;
+    left: 51%;
+    top: 144px;
     position: absolute;
     width:.3vw;
     border-width:0;
     color:#C4C4C4;
     background-color:#C4C4C4; 
 }
+
+.barra_grande_azul{
+    background: #4FBFFE;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    height: 250px;
+    width: 100%;
+}
+
+
+
+
+
+
 
 .instagram{
 
@@ -196,7 +205,7 @@ h1{
     position: relative;
     text-align: left;
     top: 75px;
-    margin-left: 3%;
+    margin-left: 4%;
     font-family:'Times New Roman', Times, serif;
     font-size: 55px;
 
@@ -214,11 +223,18 @@ h2{
 }
 
 h3{
-    position: relative;
+    position: absolute;
     text-align: left;
-   
+    top: 49%;
+    margin-left: 9%;
     font-family:'Times New Roman', Times, serif;
     font-size: 40px;
 
 }
 
+<<<<<<< HEAD
+=======
+.segundoH3{
+    position:ab;
+}
+>>>>>>> bc47f9b214666688c506e8b83366ee1165a70eae
