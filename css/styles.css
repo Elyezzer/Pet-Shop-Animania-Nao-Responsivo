@@ -62,6 +62,13 @@ header{
     margin-left: -9%;
 }
 
+.mapa{
+    position: absolute;
+    width: 751px;
+    left: 60%;
+    top: -9px;
+}
+
 
 
 .barra{
