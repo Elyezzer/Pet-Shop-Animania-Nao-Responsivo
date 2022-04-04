@@ -46,7 +46,8 @@ header{
 .logo_whatsapp{
     position: absolute;
     top: 59%;
-    margin-left: 14%;
+    margin-left: 18%;
+   
 
 }
 
@@ -58,7 +59,7 @@ header{
 
 .onda{
     position: absolute;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: -9%;
 }
 
@@ -69,6 +70,11 @@ header{
     top: -9px;
 }
 
+.logo_fundo{
+    background-image: url(logo_do_fundo_cinza:png; );
+    margin-top: -189px;
+    margin-left: 6%;
+}
 
 
 .barra{
@@ -293,7 +299,7 @@ h1{
     position: relative;
     text-align: left;
     top: 75px;
-    margin-left: 4%;
+    margin-left: 8%;
     font-family:'Sulphur Point', 'sans-serif';
     font-size: 55px;
 
@@ -314,7 +320,7 @@ h3{
     position: absolute;
     text-align: left;
     top: 49%;
-    margin-left: 5%;
+    margin-left: 10%;
     font-family:'Times New Roman', Times, serif;
     font-size: 40px
 }
@@ -322,7 +328,7 @@ h3{
 .segundoH3{
     position:relative;
     text-align: left;
-    top: 400px;
+    top: 100px;
     margin-right: -450px;
     font-family:'Sulphur Point', sans-serif;
     font-size: 43px;
