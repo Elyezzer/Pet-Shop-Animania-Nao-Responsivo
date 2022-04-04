@@ -95,7 +95,7 @@ header{
 .instagram{
 
     position: relative;
-    left: 1130px;
+    left: 1050px;
     display: flex;
 
 }
@@ -103,7 +103,7 @@ header{
 .facebook{
 
     position: relative;
-    left: 740px;
+    left: 700px;
     display: flex;
     
 }
@@ -201,6 +201,24 @@ header{
     top: 660px;
 }
 
+.mapa_home{
+
+    position: absolute;
+    top: 1140px;
+    left: 760px;
+}
+
+.endereço_home{
+
+    position: absolute;
+    top: 1160px;
+    left: 120px;
+    text-align: center;
+    font-size: 44px;
+
+}
+
+
 .barra_azul_baixo{
     
     background-color: #4FBFFE;
@@ -268,6 +286,7 @@ header{
     top: 690px;
     
 }
+
 
 
 h1{
