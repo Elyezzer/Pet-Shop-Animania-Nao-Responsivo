@@ -46,7 +46,7 @@ header{
 .logo_whatsapp{
     position: absolute;
     top: 59%;
-    margin-left: 20%;
+    margin-left: 14%;
 
 }
 
@@ -263,6 +263,12 @@ header{
 
 }
 
+.mapa{
+    position: absolute;
+    top: 690px;
+    
+}
+
 
 h1{
     position: relative;
@@ -289,7 +295,7 @@ h3{
     position: absolute;
     text-align: left;
     top: 49%;
-    margin-left: 9%;
+    margin-left: 5%;
     font-family:'Times New Roman', Times, serif;
     font-size: 40px
 }
