@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    max-width: 1920px;
+}
+
+li, a{
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 26px;
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: #4FBFFE;
+    height: 12vh;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu{
+    position: absolute;
+    left: 520px;
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+    
+}
+
+
+
+.logo_whatsapp{
+    position: absolute;
+    top: 59%;
+    margin-left: 18%;
+   
+
+}
+
+.cachorro_e_gato{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 68%;
+}
+
+.onda{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: -9%;
+}
+
+.mapa{
+    position: absolute;
+    width: 751px;
+    left: 60%;
+    top: -9px;
+}
+
+.logo_fundo{
+    background-image: url(logo_do_fundo_cinza:png; );
+    margin-top: -189px;
+    margin-left: 6%;
+}
+
+
+.barra{
+    border-left: thick solid #C4C4C4;
+    height: 55%;
+    left: 51%;
+    top: 144px;
+    position: absolute;
+    width:.3vw;
+    border-width:0;
+    color:#C4C4C4;
+    background-color:#C4C4C4; 
+}
+
+.barra_grande_azul{
+    background: #4FBFFE;
+    position: absolute;
+    top: 660px;
+    left: 0px;
+    height: 250px;
+    width: 100%;
+}
+
+.instagram{
+
+    position: relative;
+    left: 1050px;
+    display: flex;
+
+}
+
+.facebook{
+
+    position: relative;
+    left: 700px;
+    display: flex;
+    
+}
+
+.whatsapp{
+
+    position: relative;
+    left: 350px;
+    display: flex;
+    
+}
+
+.barra_amarela{
+    background: #ffd025;
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    height: 35px;
+    width: 100%;
+    
+
+}
+
+.logo{
+    position: absolute;
+    top: -10px;
+}
+
+
+
+.barra_azul_baixo{
+    
+    background-color: #4FBFFE;
+    position: absolute;
+    top: 960px;
+    left: 0px;
+    height: 450px;
+    width: 100%;
+
+}
+
+
+
+.barra_dentro_barra_azul{
+    border-left: thick solid #ffffff;
+    height: 35%;
+    left: 51%;
+    top: 1120px;
+    position: absolute;
+    width:.3vw;
+    border-width:0;
+    color:#ffffff;
+    background-color:#ffffff; 
+
+}
+
+.mapa{
+    position: absolute;
+    top: 690px;
+    
+}
+
+
+
+h1{
+    position: relative;
+    text-align: left;
+    top: 75px;
+    margin-left: 8%;
+    font-family:'Sulphur Point', 'sans-serif';
+    font-size: 55px;
+
+    
+}
+
+h2{
+    position: relative;
+    text-align: left ;
+    margin-top: -45px;
+    margin-left: 58%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    
+}
+
+h3{
+    position: absolute;
+    text-align: left;
+    top: 49%;
+    margin-left: 10%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px
+}
+
+.segundoH3{
+    position:relative;
+    text-align: left;
+    top: 100px;
+    margin-right: -450px;
+    font-family:'Sulphur Point', sans-serif;
+    font-size: 43px;
+}
+
+ 
+ 
+ 
+ 
+ 
+
