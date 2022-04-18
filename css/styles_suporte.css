@@ -1,3 +1,4 @@
+ /* Giovanne */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap');
@@ -20,12 +21,15 @@ li, a{
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px;
+    display: grid;
+    grid-template-columns: 35%;
+    grid-template-rows: 10px;
+    padding: 10px;
     background-color: #4FBFFE;
-    height: 12vh;
+    background-color: #ff0000d2;
+    max-width: 100%;
+    grid-row: 7;
+    
 }
 
 .menu li{
@@ -34,11 +38,18 @@ header{
 }
 
 .menu{
-    position: absolute;
+    display: grid;
+    grid-template-columns: 50% 60% 60%;
+    grid-template-rows: 90px 100px;
     left: 520px;
+    background-color: #8a2be2d2;
     color: #fff;
     text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+    display: flex;
+    justify-content:center
     
+   
+   
 }
 
 
@@ -98,7 +109,17 @@ header{
     width: 100%;
 }
 
-.instagram{
+.social{
+    display: grid;
+    grid-template-columns: 20% 50px 40px;
+    grid-template-rows: 50px 50px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: #C4C4C4;
+
+}
+
+/* .instagram{ 
 
     position: relative;
     left: 1050px;
@@ -120,7 +141,7 @@ header{
     left: 350px;
     display: flex;
     
-}
+ } */
 
 .barra_amarela{
     background: #ffd025;
