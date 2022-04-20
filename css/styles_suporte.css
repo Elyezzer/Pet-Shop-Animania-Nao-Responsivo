@@ -26,7 +26,7 @@ li, a{
     padding: 50px;
     background-color: #4fbffe;
     max-height: 100vh;
-    min-width: 100;
+    min-width: 100vw;
     min-width: 900px  
   }
   
@@ -41,8 +41,11 @@ li, a{
 
 .grid_conteiner{
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 2fr 1fr 2fr;
     background-color: brown;
+    max-height: 100vh;
+    min-width: 100vw;
+    min-width: 900px 
 }
 
 a{
@@ -52,10 +55,7 @@ a{
     text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
 }
 
-h1{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 24px;
-}
+
 
 .logo{
     min-width:100px;
@@ -66,27 +66,31 @@ h1{
     display: flex;
     min-width: 30%;
     width: 100%;
-    background-color: #fff;
 }
 
 .menu{
     display: flex;
     gap: 20px;
-    background-color: #ffc90e;
 }
 .menu img{
     max-width: 40%;
     min-height: 20%;
 }
 
-.barra_amarela{
+.menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
 
-    position: relative;
+
+.barra_amarela{
+    display: flex;
     top: 0vh;
     background-color: #ffc90e;
     order: 1;
     height: 5vh;
     width: 100vw;
+    min-width: 900px  
 }
 
 .social{
@@ -105,46 +109,27 @@ h1{
 
 }
 
-.barra_amarela{
-    background-color: #ffc90e;
-    height: 4vh;
-    max-width: 100%;
-}
-
-
-
-
-
-
-.menu li{
-    display: inline-block;
-    padding: 0 20px;
-}
-
-
 
 
 .logo_whatsapp{
     position: absolute;
     top: 62%;
     margin-left: 15%;
-   
-
 }
 
-
 .cachorro_e_gato{
-    position: absolute;
+   
     margin-top: -5px;
     margin-left: 68%;
     top: 50%;
 }
 
  .onda{
+    display: flex;
     position: absolute;
     margin-top: 5%;
-    margin-left: -0%;
-    top: 45%;
+    margin-left: 0%;
+    margin-top: 28%;
 }
 
 .mapa{
@@ -169,17 +154,17 @@ h1{
     background-color:#C4C4C4; 
 }
 
-.barra_grande_azul{
+/* .barra_grande_azul{
     background: #4FBFFE;
     position: absolute;
-    top: 790px;
+    top: 923px;
     left: 0px;
     height: 250px;
     width: 100%;
-}
+}  */
 
 
-.barra_dentro_barra_azul{
+ .barra_dentro_barra_azul{
     border-left: thick solid #ffffff;
     height: 35%;
     left: 51%;
@@ -190,7 +175,7 @@ h1{
     color:#ffffff;
     background-color:#ffffff; 
 
-}
+} */
 
 .mapa{
     position: absolute;
