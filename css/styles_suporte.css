@@ -25,11 +25,13 @@ li, a{
     background-color: #4fbffe;
     max-height: 100vh;
     min-width: 100vw;
+    max-width: 100%;
     
   }
   
   header img {
-    width: 80px;
+    width: 40px;
+    min-width: 50px;
 
 
 } 
@@ -53,7 +55,7 @@ h1{
 }
 
 .logo{
-    
+    min-width:px;
     max-width: 13%;
 }
 
@@ -86,7 +88,7 @@ h1{
 
 .redes_sociais{
     width: 14%;
-    background-color: green;
+    
      
 }
 
