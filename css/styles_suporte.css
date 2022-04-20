@@ -41,7 +41,8 @@ li, a{
 
 .grid_conteiner{
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: brown;
     max-height: 100vh;
     min-width: 100vw;
@@ -185,7 +186,7 @@ a{
 
 
 h1{
-    position: relative;
+     display: grid;
     text-align: left;
     top: 75px;
     margin-left: 8%;
