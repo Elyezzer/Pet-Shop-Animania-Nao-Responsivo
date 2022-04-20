@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap');
+@import url(big.css) (min-width:900px);
+
 *{
     margin: 0;
     padding: 0;
@@ -24,11 +26,12 @@ li, a{
     padding: 50px;
     background-color: #4fbffe;
     max-height: 100vh;
-    min-width: 100vw;
-    width: 100%;
-    
+    min-width: 100;
+    min-width: 900px  
   }
   
+  
+
   header img {
     width: 40px;
     min-width: 50px;
