@@ -1,14 +1,9 @@
- /* Giovanne */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    max-width: 1920px;
 }
 
 li, a{
@@ -20,58 +15,129 @@ li, a{
 
 }
 
-header{
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 50px;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #4fbffe;
+    max-height: 100vh;
+    min-width: 100vw;
+    
+  }
+  
+  header img {
+    width: 80px;
+
+
+} 
+
+.grid_conteiner{
     display: grid;
-    grid-template-columns: 35%;
-    grid-template-rows: 10px;
-    padding: 10px;
-    background-color: #4FBFFE;
-    background-color: #ff0000d2;
-    max-width: 100%;
-    grid-row: 7;
+    grid-template-rows: 1fr 2fr;
+    background-color: brown;
+}
+
+a{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+}
+
+.logo{
+    
+    max-width: 13%;
+}
+
+.logo img{
+    display: flex;
+    min-width: 30%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    background-color: #ffc90e;
+}
+.menu img{
+    max-width: 40%;
     
 }
+
+.barra_amarela{
+
+    position: relative;
+    top: 0vh;
+    background-color: #ffc90e;
+    order: 1;
+    height: 5vh;
+    width: 100vw;
+}
+
+.redes_sociais{
+    width: 14%;
+    background-color: green;
+     
+}
+
+
+.redes_sociais img{
+    max-width: 20%;
+    display: flex;
+    
+
+}
+
+.barra_amarela{
+    background-color: #ffc90e;
+    height: 4vh;
+    max-width: 100%;
+}
+
+
+
+
+
 
 .menu li{
     display: inline-block;
     padding: 0 20px;
 }
 
-.menu{
-    display: grid;
-    grid-template-columns: 50% 60% 60%;
-    grid-template-rows: 90px 100px;
-    left: 520px;
-    background-color: #8a2be2d2;
-    color: #fff;
-    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
-    display: flex;
-    justify-content:center
-    
-   
-   
-}
 
 
 
 .logo_whatsapp{
     position: absolute;
-    top: 59%;
-    margin-left: 18%;
+    top: 62%;
+    margin-left: 15%;
    
 
 }
+
 
 .cachorro_e_gato{
     position: absolute;
     margin-top: -5px;
     margin-left: 68%;
+    top: 50%;
 }
 
-.onda{
+ .onda{
     position: absolute;
     margin-top: 5%;
-    margin-left: -9%;
+    margin-left: -0%;
+    top: 45%;
 }
 
 .mapa{
@@ -81,11 +147,7 @@ header{
     top: -9px;
 }
 
-.logo_fundo{
-    background-image: url(logo_do_fundo_cinza:png; );
-    margin-top: -189px;
-    margin-left: 6%;
-}
+ 
 
 
 .barra{
@@ -103,75 +165,11 @@ header{
 .barra_grande_azul{
     background: #4FBFFE;
     position: absolute;
-    top: 660px;
+    top: 790px;
     left: 0px;
     height: 250px;
     width: 100%;
 }
-
-.social{
-    display: grid;
-    grid-template-columns: 20% 50px 40px;
-    grid-template-rows: 50px 50px;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    background-color: #C4C4C4;
-
-}
-
-/* .instagram{ 
-
-    position: relative;
-    left: 1050px;
-    display: flex;
-
-}
-
-.facebook{
-
-    position: relative;
-    left: 700px;
-    display: flex;
-    
-}
-
-.whatsapp{
-
-    position: relative;
-    left: 350px;
-    display: flex;
-    
- } */
-
-.barra_amarela{
-    background: #ffd025;
-    position: absolute;
-    top: 110px;
-    left: 0px;
-    height: 35px;
-    width: 100%;
-    
-
-}
-
-.logo{
-    position: absolute;
-    top: -10px;
-}
-
-
-
-.barra_azul_baixo{
-    
-    background-color: #4FBFFE;
-    position: absolute;
-    top: 960px;
-    left: 0px;
-    height: 450px;
-    width: 100%;
-
-}
-
 
 
 .barra_dentro_barra_azul{
@@ -189,10 +187,9 @@ header{
 
 .mapa{
     position: absolute;
-    top: 690px;
+    top: 820px;
     
 }
-
 
 
 h1{
@@ -219,24 +216,30 @@ h2{
 h3{
     position: absolute;
     text-align: left;
-    top: 49%;
-    margin-left: 10%;
+    top: 53%;
+    margin-left: 7%;
     font-family:'Times New Roman', Times, serif;
     font-size: 40px
 }
 
-.segundoH3{
+ .segundoH3{
     position:relative;
     text-align: left;
-    top: 100px;
+    top: 320px;
     margin-right: -450px;
     font-family:'Sulphur Point', sans-serif;
     font-size: 43px;
-}
+} 
 
+
+
+ .segundaH2 {
  
- 
- 
- 
- 
+     margin-top: -200px;
+     margin-left:-130px;
+     font-family: 'Work Sans', sans-serif;
+     font-size: 26px;
+     color: #fff;
+     text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
+ }
 
